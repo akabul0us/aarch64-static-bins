@@ -15,7 +15,7 @@ This repo contains:
 
 The toolchain I used to build these is available [here](https://github.com/akabul0us/musl_linux_static_toolchains)
 
-[^1]: for full list of applets, check [INSTALL.sh](INSTALL.sh).
+[^1]: for full list of applets, check [INSTALL.sh](https://github.com/akabul0us/aarch64-static-bins/blob/main/INSTALL.sh).
 [^2]: compiled as multi-call binary `dropbearmulti` with all programs enabled - `ssh`/`dbclient`, `scp`, `dropbear`, `dropbearconvert`, `dropbearkey`/`ssh-keygen` 
 [^3]: compiled with: `nmap-liblua-5.4.8 openssl-3.5.2 nmap-libssh2-1.11.1 libz-1.3.1 libpcre2-10.46 nmap-libpcap-(with nmap-libdnet-1.18.0 ipv6`
 [^4]: compiled with: `help`, `stats`, `stdio`, `fdnum`, `file`, `creat`, `gopen`, `termios`, `pipe`, `socketpair`, `unix`, `abstract_unixsocket`, `ip4`, `ip6`, `rawip`, `genericsocket`, `interface`, `tcp`, `udp`, `sctp`, `dccp`, `udplite`, `listen`, `posixmq`, `socks4`, `socks4a`, `socks5`, `vsock`, `namespaces`, `proxy`, `system`, `shell`, `exec`, `sycls`, `filan`, `retry`, `tun`, `pty`, `openssl` // without: `fips`, `libwrap`, `devtests`, `readline` // `msglevel=0` // `default_ipv=4`
